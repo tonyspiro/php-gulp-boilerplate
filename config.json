@@ -1,0 +1,82 @@
+{
+    "gulp": {
+        "mamp": {
+            "site_path": "/Users/tonyspiro/desktop/sandbox/github-repos/php-gulp-boilerplate",
+            "port": 8888
+        },
+        "less-cssmin": [
+            "src/vendor/css/bootstrap.css",
+            "./src/less/**/*.less",
+            "!./src/less/variables.less"
+        ],
+        "uglify": {
+            "head": [
+                "./src/vendor/js/modernizr-2.6.2-respond-1.1.0.min.js"
+            ],
+            "foot": [
+                "!./src/vendor/js/modernizr-2.6.2-respond-1.1.0.min.js",
+                "./src/vendor/js/jquery-1.10.1.min.js",
+                "./src/vendor/js/bootstrap.min.js",
+                "./src/js/on-ready.js",
+                "./src/js/on-load.js",
+                "./src/js/on-resize.js",
+                "./src/js/on-scroll.js"
+            ]
+        },
+        "lint": [
+            "./src/js/on-ready.js",
+            "./src/js/on-load.js",
+            "./src/js/on-resize.js",
+            "./src/js/on-scroll.js"
+        ],
+        "watch": {
+            "css": [
+                "./src/vendor/css/bootstrap.css",
+                "./src/less/**/*.less",
+                "./src/less/variables.less"
+            ],
+            "js_head": [
+                "./src/vendor/js/modernizr-2.6.2-respond-1.1.0.min.js"
+            ],
+            "js_foot": [
+                "./src/js/on-ready.js",
+                "./src/js/on-load.js",
+                "./src/js/on-resize.js",
+                "./src/js/on-scroll.js"
+            ]
+        }
+    },
+    "env": "production",
+    "output": {
+        "dev": {
+            "css": [
+                "src/vendor/css/bootstrap.css",
+                "src/css/header.css",
+                "src/css/main.css",
+                "src/css/footer.css"
+            ],
+            "js_head": [
+                "src/vendor/js/modernizr-2.6.2-respond-1.1.0.min.js"
+            ],
+            "js_foot": [
+                "src/vendor/js/jquery-1.10.1.min.js",
+                "src/vendor/js/bootstrap.min.js",
+                "src/js/on-ready.js",
+                "src/js/on-load.js",
+                "src/js/on-resize.js",
+                "src/js/on-scroll.js"
+            ]
+        },
+        "prod": {
+            "css": [
+                "dist/css/combined.min.css"
+            ],
+            "js_head": [
+                "dist/js/combined-head.min.js"
+            ],
+            "js_foot": [
+                "dist/js/combined-foot.min.js"
+            ]
+        }
+    }
+}
