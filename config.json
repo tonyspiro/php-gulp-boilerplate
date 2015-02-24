@@ -1,7 +1,7 @@
 {
     "gulp": {
         "mamp": {
-            "site_path": "/Users/tonyspiro/desktop/sandbox/github-repos/php-gulp-boilerplate",
+            "site_path": "/add/your/path/here",
             "port": 8888
         },
         "less-cssmin": [
