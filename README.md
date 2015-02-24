@@ -15,7 +15,7 @@ cd php-gulp-boilerplate
 npm install
 gulp
 ```
-If you would like to use Gulp MAMP, go into `Gulpfile.js` and set your `site_full_path` and `port` variables, then:
+If you would like to use Gulp MAMP, go into `gulpfile.js` and set your `site_full_path` and `port` variables, then:
 ```
 gulp stop
 gulp config
