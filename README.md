@@ -35,10 +35,10 @@ gulp watch
 4. If using MAMP, set your MAMP options (optional)
 
 ### In development:
-The header.php and footer.php files will include the files specified for dev output in the config.json file.
+The header.php and footer.php files will include the files specified for `dev` output in the config.json file.
 
 ### In production:
-The header.php and footer.php files will include the files specified for prod output in the config.json file.
+The header.php and footer.php files will include the files specified for `prod` output in the config.json file.
 
 Feel free to fork or open up issues for suggested features.
 Find me on twitter [@tonyspiro](http://twitter.com/tonyspiro).
