@@ -35,11 +35,10 @@ gulp watch
 4. If using MAMP, set your MAMP options (optional)
 
 ### In development:
-1. The index.php file will include src/css files specified in the config.php file.
-2. The index.php file will include all src/js files specified in the config.php file.
+1. The header.php and footer.php files will include the files specified for dev output in the config.json file.
 
 ### In production:
-Just flip the switch into production and notice there's only one minified css file in the head, one minified js file in the `<head>` and one minified js file before the `</body>` tag.
+1. The header.php and footer.php files will include the files specified for prod output in the config.json file.
 
 Feel free to fork or open up issues for suggested features.
 Find me on twitter [@tonyspiro](http://twitter.com/tonyspiro).
