@@ -6,6 +6,12 @@ $config = json_decode(file_get_contents('config.json'));
 
 define('ENV', $config->env);
 
+// Error reporting
+if(ENV == "development"){
+	error_reporting(E_ALL);
+	ini_set('display_errors', 1);
+}
+
 // CSS dev files
 $GLOBALS['DEV_CSS_FILES'] = $config->output->dev->css;
 
