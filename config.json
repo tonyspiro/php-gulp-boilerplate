@@ -35,7 +35,8 @@
   "gulp": {
     "mamp": {
       "site_path": "/add/your/path/here",
-      "port": 8888
+      "port": 8888,
+      "user": "yourusername"
     },
     "less-cssmin": [
       "src/vendor/css/bootstrap.css",
